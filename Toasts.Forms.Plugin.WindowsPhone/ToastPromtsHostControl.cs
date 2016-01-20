@@ -139,7 +139,7 @@ namespace Plugin.Toasts
             var layoutGrid = new Grid();
             var toastItem = new ToastItem(layoutGrid, DateTime.Now, notification);
             layoutGrid.HorizontalAlignment = HorizontalAlignment.Stretch;
-            layoutGrid.Height = 70;
+            //layoutGrid.Height = 70;
             layoutGrid.Margin = new Thickness(0, 0, 0, 2); //2 - a margin between toasts
             layoutGrid.Background = notification.Brush;
             layoutGrid.Projection = new PlaneProjection();
